@@ -1,0 +1,15 @@
+from enum import Enum
+
+class Event(Enum):
+    MOVEP1 = 1
+    MOVEP2 = 2
+    ROTATERIGHTP1 = 3
+    ROTATERIGHTP2 = 4
+    ROTATELEFTP1 = 5
+    ROTATELEFTP2 = 6
+    STOPMOVEP1 = 7
+    STOPMOVEP2 = 8
+    STOPROTATEP1 = 9
+    STOPROTATEP2 = 10
+    SHOOTP1 = 11
+    SHOOTP2 = 12
